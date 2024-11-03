@@ -52,7 +52,7 @@ const NavBar = () => {
           <p>CONTACT</p>
           <hr className="w-2/4 border-none h-[1.5px] bg-gray-700 hidden" />
         </NavLink>
-        <NavLink to="https://adminlatest.perfectocayabyab.com/" target="_blank" className="flex flex-col items-center gap-1 border px-2 rounded-lg">
+        <NavLink to="https://adminlatest.perfectocayabyab.com/" target="_blank" className="flex flex-col items-center font-semibold gap-1 border px-2 rounded-lg">
           <p>Admin Panel</p>
           <hr className="w-2/4 border-none h-[1.5px] bg-gray-700 hidden" />
         </NavLink>
