@@ -28,12 +28,18 @@ const Login = ({ setToken }) => {
   };
 
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center w-full">
+    <div className="min-h-screen flex flex-col items-center justify-center w-full gap-5">
 
-
+        <div className="bg-white shadow-md rounded-lg px-8 py-6 max-w-md">
+        <h1 class="text-center font-semibold">Test Admin Account</h1>
+        <p>Email: admin@gmail.com</p>
+        <p>Password: admin123</p>
+        </div>
 
       
       <div className="bg-white shadow-md rounded-lg px-8 py-6 max-w-md">
+
+        
         <h1 className="text-2xl font-bold mb-4">Admin Panel</h1>
         <form onSubmit={onSubmitHandler}>
           <div className="mb-3 min-w-72">
